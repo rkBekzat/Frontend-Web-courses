@@ -1,3 +1,7 @@
+header{
+    margin-left: 30px;
+}
+
 
 img{
     height: 30px;
@@ -14,17 +18,57 @@ ul{
     margin-top: 40px;
     margin-left: 30px;
     margin-right: 70px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .myphoto{
-    height: 270px;
-    width: 210px;
+    flex: 1;
+    height: 300px;
+    width: 200px;
     float: left;
     margin:30px;
     border-radius: 0%;
 }
 
+.information{
+    flex: 4;
+    justify-content: space-around;
+}
+
 body{
-    background-image: url('https://wallpaperaccess.com/full/1134447.jpg');
-    padding-right: 180px;
+    background-color: cornsilk;
+    /* background-image: url('https://wallpaperaccess.com/full/1134447.jpg'); */
+}
+
+#imageHW2{
+    margin: 10px;
+    border-radius: 0%;
+    height: auto;
+    width: auto;
+}
+
+#buttonHW2{
+    border-radius: 10%;
+    padding: 10px;
+    background-color: dodgerblue;
+    color: azure;
+    transition-duration: 0.4s;
+    cursor: auto;
+    margin-left: 100px;
+}
+
+#buttonHW2:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+
+}
+
+#Hw2{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
