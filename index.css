@@ -41,7 +41,7 @@ body{
     /* background-image: url('https://wallpaperaccess.com/full/1134447.jpg'); */
 }
 
-#imageHW2{
+#comicImage{
     margin: 10px;
     border-radius: 0%;
     height: auto;
@@ -64,8 +64,9 @@ body{
 
 }
 
-#Hw2{
+#comicBox{
     margin: auto;
+    margin-top: 5%;
     height: 100%;
     width: 100%;
     display: flex;
