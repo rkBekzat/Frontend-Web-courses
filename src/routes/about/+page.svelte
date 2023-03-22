@@ -1,5 +1,5 @@
 <script>
-    import ListItem from "./ListItem.svelte";
+    import ListItem from "$lib/ListItem.svelte";
 </script>
 
 <div id="Experience">

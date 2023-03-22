@@ -26,7 +26,7 @@
             </a>
         </div>
     </div>
-    <img src="src/assets/me.jpg" alt="Bekzat" class="photo">
+    <img src="me.jpg" alt="Bekzat" class="photo">
 </div>
 
 <style>
@@ -64,3 +64,6 @@
         margin-left: 10px;
     }
 </style>
+
+
+
