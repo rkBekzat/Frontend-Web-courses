@@ -3,7 +3,7 @@
     import Footer from "$lib/Author.svelte";
 </script>
 
-<div>
+<div class="app">
     <Header />
     <main>
         <slot />
@@ -12,7 +12,7 @@
 </div>
 
 <style>
-    div {
+    .app {
         margin-left: 3%;
         margin-right: 5%;
     }
