@@ -50,7 +50,6 @@ console.log("DONE");
 
 </script>
 
-<h2>Comic:</h2>
 <div id="comicBox">
     <img src={imgSrc} alt={imgAlt}>
     <section class="descript">
