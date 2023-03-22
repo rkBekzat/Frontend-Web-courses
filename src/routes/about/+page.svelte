@@ -2,6 +2,11 @@
     import ListItem from "$lib/ListItem.svelte";
 </script>
 
+<svelte:head>
+    <title> About </title>
+    <meta name="About" content="Portfolio" >
+</svelte:head>
+
 <div id="Experience">
 <h2>My experience with programming</h2>
 <p>

@@ -1,4 +1,9 @@
 
+<svelte:head>
+    <title> Home </title>
+    <meta name="Home" content="Portfolio" >
+</svelte:head>
+
 <div id="home">
     <div>
         <h1> Bekzat Rakhimbayev </h1>

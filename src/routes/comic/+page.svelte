@@ -32,10 +32,10 @@ function fetchImage(id : number) : Promise<Comic>  {
     return  fetch('https://getxkcd.vercel.app/api/comic?' + params.toString()).then(result => result.json())
 }
 
-let imgSrc : string;
-let imgAlt : string;
-let title : string; 
-let date : string;
+let imgSrc : string = "";
+let imgAlt : string = "";
+let title : string = "Loading..."; 
+let date : string = "";
 function define(image : Comic ) : void {   
     imgSrc = image.img;
     imgAlt = image.alt;
@@ -49,6 +49,11 @@ fetchID(mail).then(id => fetchImage(id)).then(image => define(image));
 console.log("DONE");
 
 </script>
+
+<svelte:head>
+    <title> Comic </title>
+    <meta name="Comic" content="Assignment" >
+</svelte:head>
 
 <div id="comicBox">
     <img src={imgSrc} alt={imgAlt}>
